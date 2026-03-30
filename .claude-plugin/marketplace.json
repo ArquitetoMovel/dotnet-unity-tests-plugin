@@ -1,7 +1,8 @@
 {
   "name": "dotnet-unity-tests-plugin",
   "owner": {
-    "name": "Alexandre Danelon (Arquiteto Móvel)"
+    "name": "Alexandre Danelon (Arquiteto Móvel)",
+    "email": "alexandre.danelon@outlook.com"
   },
   "plugins": [
     {
