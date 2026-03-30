@@ -1,0 +1,11 @@
+{
+  "name": "dotnet-unity-tests-plugin",
+  "description": "Um planejador, revisor e criador de testes unitários para dotnet",
+  "version": "1.0.0",
+  "author": {
+    "name": "Alexandre Danelon (Arquiteto Móvel)"
+  },
+  "license": "MIT",
+  "homepage": "",
+  "repository": ""
+}

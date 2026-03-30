@@ -1,0 +1,19 @@
+{
+  "name": "dotnet-unity-tests-plugin marketplace",
+  "owner": {
+    "name": "Alexandre Danelon (Arquiteto Móvel)"
+  },
+  "plugins": [
+    {
+      "name": "dotnet-unity-tests-plugin",
+      "source": {
+        "source_type": "local",
+        "path": "."
+      },
+      "version": "1.0.0",
+      "description": "Um planejador, revisor e criador de testes unitários para dotnet",
+      "category": "testing",
+      "keywords": ["dotnet", "unit-tests", "xunit", "mstest", "testing", "csharp"]
+    }
+  ]
+}
