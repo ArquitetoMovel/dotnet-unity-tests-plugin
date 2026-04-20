@@ -1,15 +1,19 @@
 {
-  "name": "dotnet-unity-tests-plugin",
+  "name": "markV AI Plugins Marketplace",
   "owner": {
     "name": "Alexandre Danelon (Arquiteto Móvel)",
     "email": "alexandre.danelon@outlook.com"
+  },
+  "metadata": {
+    "description": "Marketplace single-plugin (instalação direta do plugin)",
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "dotnet-unity-tests-plugin",
       "source": "./",
-      "version": "1.0.0",
-      "description": "Um planejador, revisor e criador de testes unitários para dotnet",
+      "version": "1.1.0",
+      "description": "Planejador, revisor e criador de testes unitários para dotnet com suporte a Claude Code, Copilot CLI e Cursor",
       "category": "testing",
       "keywords": ["dotnet", "unit-tests", "xunit", "mstest", "testing", "csharp"]
     }

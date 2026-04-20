@@ -7,8 +7,7 @@
     "email": "alexandre.danelon@outlook.com"
   },
   "license": "MIT",
-  "repository": "https://github.com/ArquitetoMovel/dotnet-unity-tests-plugin",
   "keywords": ["dotnet", "unit-tests", "xunit", "mstest", "testing", "csharp"],
-  "agents": "./agents/",
-  "skills": "./skills/"
+  "agents": "copilot-agents/",
+  "skills": ["skills/"]
 }
