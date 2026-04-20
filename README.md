@@ -9,6 +9,7 @@ Cada plugin é publicado simultaneamente para os três hosts a partir do mesmo r
 | Plugin | Categoria | Descrição | Plataformas |
 | --- | --- | --- | --- |
 | [`dotnet-unity-tests-plugin`](./dotnet-unity-tests) | testing | Planejador, revisor e criador de testes unitários para .NET (xUnit / MSTest v3). | Claude Code · Copilot CLI · Cursor |
+| [`prd-builder-plugin`](./prd-builder) | documentation | Assistente de entrevista estruturada para gerar PRDs Gerais e Funcionais em Markdown (com exportação opcional em JSON). | Claude Code · Copilot CLI · Cursor |
 
 ## Plugins
 
@@ -20,6 +21,15 @@ Automação completa do ciclo de testes unitários em soluções .NET.
 - **Skills:** `dotnet-mstest` (para `net472`) e `dotnet-xunit` (para `net8.0+`).
 - **Palavras-chave:** `dotnet`, `unit-tests`, `xunit`, `mstest`, `testing`, `csharp`.
 - **Instalação e detalhes:** [`dotnet-unity-tests/README.md`](./dotnet-unity-tests/README.md).
+
+### prd-builder-plugin
+
+Entrevista estruturada para geração de PRDs (Product Requirements Documents) em dois formatos.
+
+- **Agentes:** `prd-builder` (orquestrador que pergunta qual tipo de PRD e conduz a entrevista).
+- **Skills:** `prd-geral` (PRD de alto nível sobre o produto, com enriquecimento opcional via histórico Git) e `prd-funcional` (PRD acionável de feature em doze etapas, com exportação opcional em JSON de chaves em inglês).
+- **Palavras-chave:** `prd`, `product-requirements`, `documentation`, `interview`, `product-management`.
+- **Instalação e detalhes:** [`prd-builder/README.md`](./prd-builder/README.md).
 
 ## Instalação genérica
 

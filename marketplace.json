@@ -16,6 +16,14 @@
       "description": "Planejador, revisor e criador de testes unitários para dotnet com suporte a Claude Code, Copilot CLI e Cursor",
       "category": "testing",
       "keywords": ["dotnet", "unit-tests", "xunit", "mstest", "testing", "csharp"]
+    },
+    {
+      "name": "prd-builder-plugin",
+      "source": "./prd-builder",
+      "version": "1.0.0",
+      "description": "Assistente de entrevista para gerar PRDs Gerais e Funcionais em Markdown",
+      "category": "documentation",
+      "keywords": ["prd", "product-requirements", "documentation", "interview", "product-management"]
     }
   ]
 }
